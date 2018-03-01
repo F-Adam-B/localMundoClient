@@ -1,0 +1,108 @@
+body {
+	padding: 0;
+	font-family: sans-serif;
+	/* background-color: rgb(147, 209, 147); */
+	color: rgb(237, 241, 237);
+	font-family: 'cursive';
+	/* background-image: url('http://travelnepa.com/wp-content/uploads/2016/02/spain.jpg'); */
+	/* background-repeat: no-repeat; */
+	/* background-size: cover;
+	background-position: center;
+	max-width: 100%px; */
+}
+
+html {
+	background: url(http://travelnepa.com/wp-content/uploads/2016/02/spain.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+app {
+	background-color: transparent;
+}
+
+.backgroundImg {
+	background-image: url('http://travelnepa.com/wp-content/uploads/2016/02/spain.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+button {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 20px !important;
+}
+
+a {
+	color: whitesmoke;
+}
+
+.spanish_question {
+	padding-bottom: 10px;
+	color: brown;
+}
+
+.spanishWord {
+	margin-top: 30px;
+}
+
+.dashboard-username {
+	padding-top: 20px;
+	border-bottom: black 1px solid;
+	max-width: 80%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+#answerButton {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+#answerButton :hover {
+	background-color: lightblue;
+}
+
+.dashboard {
+	box-shadow: 2px 2px 31px black;
+	margin-top: 200px;
+}
+
+.landingPageImageContainer {
+	height: 200px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.sideImageRegistration,
+.sideImage {
+	background-color: rgba(255, 255, 255, 0.589);
+	border-radius: 5%;
+	box-shadow: 2px 2px 5px black;
+}
+
+#username,
+#password {
+	background-color: whitesmoke;
+}
+
+#userAnswer {
+	text-align: center;
+}
+@media only screen and (min-width: 1020px) {
+	.landingPageImageContainer {
+		margin-left: 10%;
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	.landingPageImageContainer {
+		margin-left: 20%;
+	}
+}
