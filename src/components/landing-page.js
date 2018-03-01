@@ -22,7 +22,9 @@ export function LandingPage(props) {
 			</div>
 			<div className="loginFormWrapper">
 				<LoginForm />
-				<Link to="/register">Signup Here</Link>
+				<Link to="/register" className="registerLink">
+					Signup Here
+				</Link>
 			</div>
 		</div>
 	);
